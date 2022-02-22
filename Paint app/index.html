@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="js/app.js" type="module" defer></script>
+</head>
+
+<body>
+    <div class="toolbox left">
+        <div class="group commands">
+
+            <div class="item" data-command="undo" title="Undo">
+                <img src="images/undo.png">
+            </div>
+
+            <div class="item" data-command="download" title="Download">
+                <img src="images/download.png">
+            </div>
+
+            <div class="item" data-command="newfile" title="New file">
+                <img src="images/new_file.png">
+            </div>
+
+            <div id="_grid" class="item" data-command="grid" title="Grid">
+                <img  src="images/grid.png" >
+            </div>
+
+        </div>
+        <div class="group shapes">
+            <div class="item active" data-tool="line" title="Line">
+                <img src="images/line.png">
+            </div>
+
+            <div class="item" data-tool="parking" title="Parking">
+                <img src="images/shapeT.png">
+            </div>
+
+            <div class="item" data-tool="rectangle" title="Rectangle">
+                <img src="images/rectangle.png">
+            </div>
+
+            <div class="item" data-tool="sensor" title="Sensor">
+                <img src="images/sensor.png" ">
+            </div>
+
+        </div>
+        <div class=" group tools">
+
+                <div class="item" data-tool="brush" title="Brush">
+                    <img src="images/brush.png">
+                </div>
+
+                <div class="item" data-tool="paint" title="Paint">
+                    <img src="images/paint.png">
+                </div>
+
+                <div class="item" data-tool="eraser" title="Eraser">
+                    <img src="images/eraser.png">
+                </div>
+
+            </div>
+
+            <div class="group linewidths for-shapes" style="display: block;">
+                <div class="item active" data-line-width="1" title="1 pixel">
+                    <div class="linewidth" style="width:1px;height:1px"></div>
+                </div>
+
+                <div class="item" data-line-width="2" title="2 pixel">
+                    <div class="linewidth" style="width:2px;height:2px"></div>
+                </div>
+
+                <div class="item" data-line-width="3" title="3 pixel">
+                    <div class="linewidth" style="width:3px;height:3px"></div>
+                </div>
+
+                <div class="item" data-line-width="4" title="4 pixel">
+                    <div class="linewidth" style="width:4px;height:4px"></div>
+                </div>
+
+                <div class="item" data-line-width="5" title="5 pixel">
+                    <div class="linewidth" style="width:5px;height:5px"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <canvas id="canvas" width="1024" height="720"></canvas>
+
+        <div class="toolbox right">
+
+            <div class="group paint">
+                <div class="item" data-color="#ffffff">
+                    <div class="paint" style="background-color:#ffffff;">
+                    </div>
+                </div>
+
+                <div class="item" data-color="#808080">
+                    <div class="paint" style="background-color:#808080;">
+                    </div>
+                </div>
+
+                <div class="item" data-color="#484848">
+                    <div class="paint" style="background-color:#484848;">
+                    </div>
+                </div>
+
+                <div class="item active" data-color="#000000">
+                    <div class="paint" style="background-color:#000000;">
+                    </div>
+                </div>
+
+                <div class="item" data-color="#ffc266">
+                    <div class="paint" style="background-color:#ffc266;">
+                    </div>
+                </div>
+
+                <div class="item" data-color="#FF0000">
+                    <div class="paint" style="background-color:#FF0000;">
+                    </div>
+                </div>
+                
+                <div class="item" data-color="#00ffaa">
+                    <div class="paint" style="background-color:#00ffaa;">
+                    </div>
+                </div>
+
+                <div class="item" data-color="#4400ff">
+                    <div class="paint" style="background-color:#4400ff;">
+                    </div>
+                </div>
+
+                <div class="item" data-color="#ff00c8">
+                    <div class="paint" style="background-color:#ff00c8;">
+                    </div>
+                </div>
+
+                <div class="item" data-color="#09ff00">
+                    <div class="paint" style="background-color:#09ff00;">
+                    </div>
+                </div>
+                
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

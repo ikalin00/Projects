@@ -1,0 +1,205 @@
+/*MENU START*/
+body{
+    background-color: #7f7f7f;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.menu{
+    position: fixed;
+    top: 0%;
+    right:0%;
+    z-index: 1000;
+    background-color: white;
+    border: 3px solid black;
+    padding:15px;
+    height: 100%;
+    width: 10%;
+}
+
+li  {
+    color: white;
+    padding:0 20% 30% 0;
+    text-decoration: none;
+}
+
+li:hover {
+    /*background-color: #111111;*/
+}
+
+.parkingLink{
+    width:50px;
+    height:50px;
+}
+.parkingLink:hover{
+    width: 70px;
+    height:70px;
+}
+/*MENU END*/
+
+/*PARKING START*/
+#parking1,#parking2{
+    position: relative;
+    min-width: 1500px;
+    max-width: 1500px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #7f7f7f;
+}
+#parking1 img,#parking2 img{
+    position: relative;
+}
+
+
+#sensor1{
+    float: left;
+    position: absolute;
+    left: 34%;
+    top: 11.5%;
+    z-index: 1000;
+
+}
+#sensor2{
+    float: left;
+    position: absolute;
+    left: 34%;
+    top: 22%;
+    z-index: 1000;
+
+}
+#sensor3{
+    float: left;
+    position: absolute;
+    left: 34%;
+    top: 32%;
+    z-index: 1000;
+
+}
+#sensor4{
+    float: left;
+    position: absolute;
+    left: 34%;
+    top: 42%;
+    z-index: 1000;
+
+}
+#sensor5{
+    float: left;
+    position: absolute;
+    left: 34%;
+    top: 52%;
+    z-index: 1000;
+
+}
+
+#sensor6{
+    float: right;
+    position: absolute;
+    right: 52%;
+    top: 11.5%;
+    z-index: 1000;
+
+}
+
+
+#sensor7{
+    float: right;
+    position: absolute;
+    right: 52%;
+    top: 22%;
+    z-index: 1000;
+
+}
+#sensor8{
+    float: right;
+    position: absolute;
+    right: 52%;
+    top: 32%;
+    z-index: 1000;
+
+}
+#sensor9{
+    float: right;
+    position: absolute;
+    right: 52%;
+    top: 42%;
+    z-index: 1000;
+
+}
+#sensor10{
+    float: right;
+    position: absolute;
+    right: 52%;
+    top: 52%;
+    z-index: 1000;
+
+}
+#sensor11{
+    float: right;
+    position: absolute;
+    right: 87%;
+    top: 27%;
+    z-index: 1000;
+
+}
+#sensor12{
+    float: right;
+    position: absolute;
+    right: 79%;
+    top: 27%;
+    z-index: 1000;
+
+}
+#sensor13{
+    float: right;
+    position: absolute;
+    right: 71%;
+    top: 27%;
+    z-index: 1000;
+
+}
+#sensor14{
+    float: right;
+    position: absolute;
+    right: 63%;
+    top: 27%;
+    z-index: 1000;
+
+}
+
+#sensor15{
+    float: right;
+    position: absolute;
+    right: 55%;
+    top: 27%;
+    z-index: 1000;
+
+}
+#sensor16{
+    float: right;
+    position: absolute;
+    right: 47%;
+    top: 27%;
+    z-index: 1000;
+
+}
+
+#parking1 button, #parking2 button{
+    color: white;
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    z-index: 2000;
+}
+
+#parking1 button:hover, #parking2 button:hover
+{
+    width:33px;
+    height:33px;
+    border-radius:33px;
+}
+/*PARKING END*/

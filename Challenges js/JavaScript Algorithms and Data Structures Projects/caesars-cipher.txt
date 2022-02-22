@@ -1,0 +1,19 @@
+function rot13(str) {
+  let result = ""
+  for(let i = 0;i<str.length;i++)
+  {
+    let charNumber = str[i].charCodeAt()
+    if(charNumber < 65 || charNumber > 90){
+      result = result + str[i]
+    }
+    else{
+     let finalCharNumber = charNumber +13 > 90 ? (charNumber %26) +65: charNumber +13
+     result = result + String.fromCharCode(finalCharNumber)  
+    }
+  }
+  return result;
+  
+
+}
+
+rot13("SERR PBQR PNZC");

@@ -1,0 +1,22 @@
+function palindrome(str) {
+
+  str = str.replace(/\W|_/g,"").toLowerCase()
+  let last = str.length - 1
+   
+  for(let i = 0;i < str.length; i++){
+  if(str[i] !== str[last]){
+
+   
+
+  return false
+}
+  last--
+  }
+
+  
+ return true;
+  
+ 
+}
+
+palindrome("eye");

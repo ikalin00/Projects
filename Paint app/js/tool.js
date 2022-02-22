@@ -1,0 +1,7 @@
+export const LINE = 'line'
+export const PARKING = 'parking'
+export const RECTANGLE = 'rectangle'
+export const SENSOR = 'sensor'
+export const BRUSH = 'brush'
+export const PAINT = 'paint'
+export const ERASER = 'eraser'

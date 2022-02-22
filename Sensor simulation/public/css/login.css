@@ -1,0 +1,28 @@
+/*LOGIN START*/
+.login{
+    margin: auto;
+    width: 50%;
+    border: 5px solid #204a87 ;
+    border-radius: 50px;
+    /*padding: 10px;*/
+    padding: 70px 0;
+    margin-top:5%;
+    text-align: center;
+    height: 40%;
+}
+
+.form div{
+    padding-bottom: 2% ;
+}
+
+.logo{
+    width:50px;
+    height:auto;
+}
+
+.login_button:hover{
+    width:80px;
+    height:auto;
+    font-size: medium;
+}
+/*LOGIN END*/
